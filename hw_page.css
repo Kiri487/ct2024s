@@ -1,0 +1,109 @@
+body {
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0;
+}
+
+.bar {
+    width: 100%;
+    height: 11vh;
+    padding: 1vw;
+    background-color: #7189aa;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: fixed;
+}
+
+.bar img {
+    padding: 10px;
+    height: 8vh;
+}
+
+.bar p {
+    margin: 0 0 0 1vw;
+}
+
+.content {
+    display: flex;
+    padding: 11vh 0 0 0;
+}
+
+.sidebar {
+    width: 30vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.code-button {
+    width: 100%;
+    margin: 0 auto 1vw;
+    padding: 5%;
+    background-color: #7189aa;
+    border: #7189aa 3px solid;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none
+}
+
+.code-button:hover {
+    color: #7189aa;
+    background-color: white;
+}
+
+.check-list {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #7189aa;
+    border-radius: 30px;
+    color: white;
+}
+
+.total-score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.baseline {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.baseline-content {
+    margin: 0.5rem 0;
+}
+
+.baseline-content input {
+    margin: 0 0.5rem;
+}
+
+.homework {
+    width: 100%;
+    padding: 2vw 2vw 2vw 30vw;
+}
+
+.homework-title {
+    color: #7189aa;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.homework-content {
+    margin: 2% 0;
+    padding: 2%;
+    color: #7189aa;
+    border:#7189aa 3px solid;
+    border-radius: 10px;
+}
+
+.homework-content img {
+    width: 100%;
+}
