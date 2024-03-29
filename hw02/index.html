@@ -37,7 +37,7 @@
       <div class="sidebar">
         <a class="code-button" href="https://github.com/Kiri487/ct2024s/tree/main/hw02/src">HW2 資料夾 ヾ(*ΦωΦ)ツ</a>
         <div class="check-list">
-          <div class="total-score">總分 <span id='total'>2</span>/10</div>
+          <div class="total-score">總分 <span id='total'></span>/10</div>
           <p class="baseline">Simple baseline</p>
           <div class="baseline-content"><input type="checkbox" id="checkbox1" checked>(<span id='m1'>3</span>) 套件安裝完成截圖</div>
           <p class="baseline">Medium baseline</p>
@@ -73,10 +73,6 @@
       d3.select("#checkbox1").on("change",update);
       d3.select("#checkbox2").on("change",update);
       d3.select("#checkbox3").on("change",update);
-      d3.select("#checkbox4").on("change",update);
-      d3.select("#checkbox5").on("change",update);
-      d3.select("#checkbox6").on("change",update);
-      d3.select("#checkbox7").on("change",update);
 
       update();
       
